@@ -1,13 +1,13 @@
 {
-  "name": "pm2-intercom",
+  "name": "q-pm2-intercom",
   "version": "1.0.0",
-  "description": "Basic system to broadcast message to all other processes",
+  "description": "Basic system to broadcast message to all other processes，pm2 url changed to avoid git remote",
   "main": "index.js",
   "scripts": {
     "test": "DEBUG='*' mocha test/*.mocha.js"
   },
   "dependencies" : {
-    "pm2"    : "Unitech/pm2#development",
+    "pm2"    : "3.5.1",
     "pmx"    : "latest",
     "async"  : "latest",
     "semver" : "*"
